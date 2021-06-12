@@ -1,18 +1,47 @@
 .classc{
-    background-color:	#DA291C;
-    
+    background-color:	#333;
 }
+
 .nav1{
-    background-color: #DA291C;
+    background-color: #333;
     color: yellow;
 }
 
 .spicy{
     font-size: 30px;
-    color:black;
+    color:#333;
     margin-top:25px;
     padding-left:5px ;
 }
 .colb{
-    border: 1px solid red;
+    border: 1px solid #333;
+}
+
+.image{
+    height: 50px;
+}
+
+.bg{
+    height:50px;
+}
+
+.navbar-default li{
+    background-color: #DA291C;
+}
+.fb{
+    color:white;
+}
+
+
+.about{
+    height:600px;
+}
+
+.myform{
+    border:2px solid #333;
+    padding: 5px 5px 5px 5px;
+}
+.Select{
+    width: 100%;
+    height:100px;
 }
