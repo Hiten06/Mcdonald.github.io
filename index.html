@@ -8,26 +8,39 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid classc">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <img src ="img/logo.PNG"  class="img-responsive">
+     <nav class="navbar navbar-inverse">
+         <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+                        <span class="icon-bar"></span>   
+                        <span class="icon-bar"></span>  
+                        <span class="icon-bar"></span>  
+                   </button>
+                     <a href="#" class="navbar-left">
+                         <img src="img/logo.png" class="bg">
+                     </a>
                 </div>
-                <div class="col-md-9 col-sm-6">
-                    <nav class="navbar navbar-default">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">Menu</a></li>
-                            <li ><a href="#">AboutUs</a></li>
-                            <li><a href="#">McDeilvery</a></li>
-                    
+                <div class="collapse navbar-collapse" id="nav1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">McAloo Tikki</a></li>
+                            <li><a href="#">French Fries</a></li>
+                            <li><a href="#">Coke</a></li>  
                         </ul>
-                    </nav>
+                    </li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Mcdeilvery.html">McDeilvery</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+                </ul>
                 </div>
             </div>
-    
-    </div>
-    <p class="spicy">SPICY DELIGHT</p>
-    <hr style="border: 2px solid red;">
+        </nav>
+    <center><h3>SPICY DELIGHT<h3></center>
+    <hr style="border: 2px solid #333;">
     <div class="container-fluid">
         <div class="container">
             <div class="row">
@@ -57,19 +70,17 @@
                 </div>
             </div>
         </div>
-        
     </div>
-
    <br>
     <div class="container-fluid classc">
             <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-md-6 col-sm-6 col-xs-6 fb">
                   &copy;McDonald
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6">
-             <i class="fab fa-facebook pull-right"></i>
-             <i class="fab fa-instagram pull-right"></i>
-             <i class="fab fa-twitter pull-right"></i>
+             <i class="fab fa-facebook pull-right fb"></i>
+             <i class="fab fa-instagram pull-right fb"></i>
+             <i class="fab fa-twitter pull-right fb"></i>
             </div>
             </div>
     </div>
