@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>McDeilvery</title>
+       <meta name="viewport" content="width=device-width,inital-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+       <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+       <nav class="navbar navbar-inverse">
+           <div class="container">
+               <div class="navbar-header">
+                 <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#nav1">
+                 <span  class="icon-bar"></span>
+                 <span  class="icon-bar"></span>
+                 <span  class="icon-bar"></span>
+                 </button> 
+                 <a href="#" class="navbar-left"><img src="img/logo.PNG" class="bg"></a>   
+               </div>
+               <div class="collapse navbar-collapse" id="nav1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">McAloo Tikki</a></li>
+                            <li><a href="#">French Fries</a></li>
+                            <li><a href="#">Coke</a></li>  
+                        </ul>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="active"><a href="#">McDeilvery</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+                </ul>
+                </div>
+           </div>
+       </nav>
+        <center><h3>HOW McDeilvery Team Work</h3></center>
+        <hr style="border: 2px solid #333;">
+        <div class="container-fluid" style="background-color: aquamarine;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <img src="img/mcd.PNG" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 2px solid #333;">
+        <center><h3>Place Your Order</h3></center>
+        <div class="container-fluid">
+            <div class="container">
+                <form name="myform" class="form-group myform">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="inputname"> FirstName:</label>
+                            <input type="text" class="form-control" placeholder="Firstname"> 
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputname"> LastName:</label>
+                            <input type="text" class="form-control" placeholder="Lastname"> 
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="inputname"> Address Line1:</label>
+                            <input type="text" class="form-control" placeholder=" Address Line1"> 
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputname"> Address Line2:</label>
+                            <input type="text" class="form-control" placeholder="Address Line2"> 
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="inputname"> City:</label>
+                            <input type="text" class="form-control" placeholder="City"> 
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputname"> State:</label>
+                            <input type="text" class="form-control" placeholder="State"> 
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputname"> Pincode:</label>
+                            <input type="text" class="form-control" placeholder="Pincode"> 
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="inputname"> Email-Id:</label>
+                            <input type="email" class="form-control" placeholder="Email-Id"> 
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputname"> Phone-No:</label>
+                            <input type="text" class="form-control" placeholder="Phone-No"> 
+                        </div>
+                    </div>
+                    <br> 
+                   
+                <div class="row">
+                    <div class="col-md-6">
+                         <label for="inputname">Select Your Order:</label>
+                         <br>
+                         <select class="custom-select col-md-12" id="Select">
+                            <option selected>Choose...</option>
+                            <option value="1">McSPICY PANEER Crispy</option>
+                            <option value="2">BIGSPICY CHICKEN WRAP</option>
+                            <option value="3">BIGSPICY PANEER WRAP</option>
+                            <option value="4">VEG PIZZA McPUFF</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputname">Payment Method:</label>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-4">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Cash On deilvery
+                              </label>
+                              </div>
+                              <div class="col-md-4">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label" for="gridRadios1">
+                                  UPI 
+                                </label>
+                                </div>
+                                <div class="col-md-4">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Credit card
+                                  </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <center><button type="button" class="btn btn-primary ">Order</button></center>
+                </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid classc">
+                <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 fb">
+                      &copy;McDonald
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                 <i class="fab fa-facebook pull-right fb"></i>
+                 <i class="fab fa-instagram pull-right fb"></i>
+                 <i class="fab fa-twitter pull-right fb"></i>
+                </div>
+               
+                </div>
+        </div>
+    
+    </body>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type = "text/javascript" src = "js/all.js"></script>
+<script type="text/javascript" src="js/all.min.js"></script>
+</html>
